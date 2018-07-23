@@ -1,0 +1,39 @@
+.projects-main{
+    height: auto;
+    width: 100vw;
+    background: var(--grey);
+    text-align: center;
+    padding: 10px 0;
+}
+
+.projects-main>h1{
+    color: var(--black);
+    font-size: 10vh;
+    font-weight: 600;
+    margin: 10px 0 20px 0;
+}
+
+.projects-main>h2{
+    font-size: 5vh;
+    margin: 10px 0 20px 0;
+}
+
+.projects-main>h3{
+    font-size: 4vh;
+    font-weight: 600;
+}
+
+ul{
+    margin: 0 5px;
+}
+.projects-main>ul>li{
+    text-align: left;
+    font-size: 3.5vh;
+    margin-top: 10px;
+
+}
+
+.twitter-photo{
+    height: auto;
+    width: 100vw;
+}

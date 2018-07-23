@@ -1,0 +1,38 @@
+.title-main{
+    background: var(--teal);
+    width: 100vw;
+    height: auto;
+    padding: 10px 0px;
+}
+
+.title-photo{
+    width: 100vw;
+    height: auto;
+    transform: rotate(180deg);
+}
+
+.title-main>h1{
+    font-size: 8vh;
+    font-weight: 600;
+
+}
+
+.title-main>h2{
+    font-size: 4vh;
+    margin-bottom: 10px
+}
+
+.title-main>h3{
+    column-count: 2;
+    margin: 20px 5px 0 5px;
+    font-size: 3.5vh;
+    
+}
+
+.title-main>h1, .title-main>h2, .title-main>h3{
+    text-align: center;
+    color: var(--black);
+}
+
+
+

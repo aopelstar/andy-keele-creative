@@ -1,0 +1,30 @@
+:root{
+    --teal: #245a5a;
+    --black: #0b100c;
+    --grey: #BEC0BF;
+    --blue: #07273E;
+}
+
+.head-main{
+    width: 100vw;
+    height: auto;
+    background: var(--teal);
+    padding: 10px 0;
+}
+
+.head-main>h1{
+   font-weight: 700;
+    font-size: 3.2vh;
+    
+}
+
+.head-main>h2{
+    font-size: 4vh;
+    margin: 10px 0 10px 0;
+}
+
+.head-main>h1, .head-main>h2{
+    font-family: 'Lato', sans-serif;
+    color: var(--black);
+    text-align: center;
+}
