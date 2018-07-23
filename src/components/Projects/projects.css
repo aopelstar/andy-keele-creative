@@ -4,10 +4,10 @@
     background: var(--grey);
     text-align: center;
     padding: 10px 0;
+    color: var(--blue);
 }
 
 .projects-main>h1{
-    color: var(--black);
     font-size: 10vh;
     font-weight: 600;
     margin: 10px 0 20px 0;
@@ -24,7 +24,7 @@
 }
 
 ul{
-    margin: 0 5px;
+    margin: 0 5px 10px 5px;
 }
 .projects-main>ul>li{
     text-align: left;
