@@ -35,3 +35,76 @@
     color: var(--grey);
     font-size: 3vh;
 }
+
+@media(min-width:550px){
+    .contact-main>h1{
+        font-size:14vh;
+    }
+
+    .contact-main>h2{
+        font-size: 12vh;
+        margin-bottom: 50px;
+    }
+    .contact-container{
+        margin: 0 75px;
+        font-size: 10vh;
+    }
+    
+    .contact-row>div>input{
+        height: 10vh;
+        font-size: 8vh;
+        width: 200px;
+    }
+
+    .contact-button{
+        font-size:10vh;
+    }
+}
+
+@media(min-width:750px){
+    .contact-main>h1{
+        font-size:10vh;
+    }
+
+    .contact-main>h2{
+        font-size: 9vh;
+        margin-bottom: 50px;
+    }
+
+    .contact-container{
+        font-size: 7vh;
+    }
+
+    .contact-row>div>input{
+        height: 6vh;
+        font-size: 5vh;
+        width: 200px;
+    }
+
+    .contact-row{
+        margin-top:45px;
+    }
+
+    .button-container{
+        margin-top: 60px;
+    }
+
+    .contact-button{
+        font-size:7vh;
+        width: auto;
+    }
+}
+
+@media(min-width:1000px){
+
+    .contact-container{
+        margin: 0 150px;
+    }
+
+    .contact-row>div>input{
+        height: 6vh;
+        font-size: 5vh;
+        width: 350px;
+    }
+
+}

@@ -30,10 +30,56 @@ ul{
     text-align: left;
     font-size: 3.5vh;
     margin-top: 10px;
+    margin-left: 30px;
 
 }
 
 .twitter-photo{
     height: auto;
     width: 100vw;
+}
+
+@media(min-width:550px){
+    .projects-main>h1{
+        font-size: 20vh;
+        
+    }
+    
+    .projects-main>h2{
+        font-size: 10vh;
+    }
+    
+    .projects-main>h3{
+        font-size: 7vh;
+    }
+    
+    
+    .projects-main>ul>li{
+        font-size: 7vh;
+    
+    }
+}
+
+@media(min-width:750px){
+ 
+    .projects-main>h1{
+        font-size: 15vh;
+        
+    }
+    
+    .projects-main>h2{
+        font-size: 9vh;
+    }
+    
+    .projects-main>h3{
+        font-size: 5vh;
+        margin: 45px 0;
+    }
+    
+    
+    .projects-main>ul>li{
+        font-size: 5vh;
+        margin-top: 25px;
+    
+    }
 }
