@@ -27,7 +27,7 @@ export default class Contact extends Component{
             message: this.state.message
         }
 
-        let promise = axios.post('http://localhost:7654/api/sendEmail', body)
+        let promise = axios.post('/api/sendEmail', body)
         promise.then( ()=> {
             window.location.reload()
             alert("Your message has been sent.  Get stoked.")
