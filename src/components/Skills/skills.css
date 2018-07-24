@@ -58,5 +58,11 @@
     }
 }
 
+@media(min-width:1200px){
+    .icons-container{
+        padding: 0 150px;
+    }
+}
+
 
 

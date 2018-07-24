@@ -83,3 +83,16 @@ ul{
     
     }
 }
+
+@media(min-width:1000px){
+
+    .twitter-photo{
+        height: auto;
+        width: 40vw;
+    }
+
+    .projects-main>div{
+        display: flex;
+        justify-content: space-around;
+    }
+}

@@ -77,3 +77,24 @@
         font-size: 6vh;
     }
 }
+
+@media(min-width:1200px){
+    .title-main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .title-main>div{
+        margin: auto;
+    }
+    
+    .title-photo{
+        width: 65vw;
+        height: auto;
+    }
+
+    .title-main>h3{
+        margin: 30px 140px;
+    }
+
+}
