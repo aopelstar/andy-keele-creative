@@ -36,7 +36,7 @@ export default function projects() {
                     </div>
                 <div>
                     <a href="https://www.youtube.com/embed/5_IYrQumvCk" target="_blank">
-                    Click here to watch the site tour
+                    Click here to take the site tour
                     </a>
                     </div>
             </div>

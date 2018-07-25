@@ -11,25 +11,25 @@
     transform: rotate(180deg);
 }
 
-.title-main>h1{
+.title-container>h1{
     font-size: 8vh;
     font-weight: 600;
 
 }
 
-.title-main>h2{
-    font-size: 4vh;
+.title-container>h2{
+    font-size: 3.5vh;
     margin-bottom: 10px
 }
 
-.title-main>h3{
+.title-container>h3{
     column-count: 2;
-    margin: 20px 5px 0 5px;
+    margin: 20px 20px 10px 20px;
     font-size: 3.5vh;
     
 }
 
-.title-main>h1, .title-main>h2, .title-main>h3{
+.title-container>h1, .title-container>h2, .title-container>h3{
     text-align: center;
     color: var(--black);
 }
@@ -37,54 +37,54 @@
 
 @media(min-width:550px){
     
-    .title-main>h1{
+    .title-container>h1{
         font-size: 15vh;
     }
 
-    .title-main>h2{
+    .title-container>h2{
         font-size: 10vh;
     }
 
-    .title-main>h3{
+    .title-container>h3{
         font-size: 8vh;
     }
 }
 
 @media(min-width: 750px){
-    .title-main>h1{
+    .title-container>h1{
         font-size: 10vh;
     }
 
-    .title-main>h2{
+    .title-container>h2{
         font-size: 5vh;
     }
 
-    .title-main>h3{
+    .title-container>h3{
         font-size: 4vh;
     }
 }
 
 @media(min-width:1000px){
-    .title-main>h1{
+    .title-container>h1{
         font-size: 11vh;
     }
 
-    .title-main>h2{
+    .title-container>h2{
         font-size: 8vh;
     }
 
-    .title-main>h3{
+    .title-container>h3{
         font-size: 6vh;
     }
 }
 
 @media(min-width:1200px){
-    .title-main{
+    .title-container{
         display: flex;
         flex-direction: column;
     }
 
-    .title-main>div{
+    .title-container>div{
         margin: auto;
     }
     
@@ -93,7 +93,7 @@
         height: auto;
     }
 
-    .title-main>h3{
+    .title-container>h3{
         margin: 30px 140px;
     }
 

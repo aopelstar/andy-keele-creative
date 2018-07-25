@@ -3,14 +3,13 @@
     width: 100vw;
     background: var(--grey);
     text-align: center;
-    padding: 10px 0;
+    padding: 10px 0 20px 0;
     color: var(--blue);
 }
 
 .projects-main>h1{
     font-size: 10vh;
     font-weight: 600;
-    margin: 10px 0 20px 0;
 }
 
 .projects-main>h2{
