@@ -54,10 +54,10 @@ export default function projects() {
             <div>
 
                 <div>
-                    <img src="https://res.cloudinary.com/drapplestar/image/upload/v1532376970/AJK%20creative/splash.png" className="twitter-photo" />
+                    <img src="https://res.cloudinary.com/drapplestar/image/upload/v1532499095/AJK%20creative/Screen_Shot_2018-07-25_at_12.00.02_AM.png" className="twitter-photo" />
                 </div>
                 <div>
-                    <img src="https://res.cloudinary.com/drapplestar/image/upload/v1532376967/AJK%20creative/home.png" alt="twitter photo 2" className="twitter-photo" />
+                    <img src="https://res.cloudinary.com/drapplestar/image/upload/v1532499095/AJK%20creative/Screen_Shot_2018-07-25_at_12.01.03_AM.png" alt="twitter photo 2" className="twitter-photo" />
                 </div>
             </div>
             <div className="project-repo">
