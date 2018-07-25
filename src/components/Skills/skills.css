@@ -20,7 +20,8 @@
 .icon-container{
     display: flex;
     flex-direction: column;
-    margin: 15px;
+    width: 100px;
+    margin: 10px auto;
    
 }
 
@@ -38,6 +39,10 @@
     .icons-container{
         font-size:8vh;
     }
+
+    .icon-container{
+        width:150px
+    }
 }
 
 @media(min-width:750px){
@@ -48,8 +53,8 @@
 
     .icon-container{
         font-size:6vh;
-        min-width: 150px;
-        width: auto;
+        width: 323px;
+        margin: 20px auto;
     }
 
     .icon-image{
