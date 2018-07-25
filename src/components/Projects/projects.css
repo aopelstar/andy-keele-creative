@@ -39,6 +39,22 @@ ul{
     width: 100vw;
 }
 
+.project-repo{
+    width: 100vw;
+    background: var(--blue);
+    color: var(--grey);
+    padding: 5px 0;
+}
+
+.project-repo>div{
+    margin: 10px 0;
+}
+
+.project-repo>div>a{
+    text-decoration: none;
+    color: var(--grey);
+}
+
 @media(min-width:550px){
     .projects-main>h1{
         font-size: 20vh;
@@ -81,6 +97,10 @@ ul{
         font-size: 5vh;
         margin-top: 25px;
     
+    }
+
+    .project-repo>div{
+        font-size: 4.5vh;
     }
 }
 
