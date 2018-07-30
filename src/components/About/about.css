@@ -1,0 +1,69 @@
+.about-main{
+    width: 100vw;
+    height: auto;
+    background-color: var(--grey);
+}
+
+.about-h1{
+    color: white;
+    text-align: center;
+    font-size:7vh;
+    margin: 25px 0;
+}
+
+.about-pic{
+    width: 100vw;
+    transform: rotate(180deg);
+    z-index: -1000;
+}
+
+.about-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.about-desc{
+    margin: 15px;
+    text-align: center;
+    font-size: 3.5vh;
+    color: white;
+}
+
+@media(min-width:550px){
+
+    .about-h1{
+        font-size: 13vh;
+    }
+
+    .about-desc{
+        font-size: 7vh;
+    }
+}
+
+@media(min-width:750px){
+
+    .about-h1{
+        font-size:10vh;
+    }
+    .about-desc{
+        font-size: 5vh;
+    }
+}
+
+@media(min-width:1200px){
+
+    .the-man-container{
+        display: flex;
+        margin: 25px;
+    }
+
+    .about-pic{
+        height: auto;
+        max-width: 50vw;
+        width: auto;
+    }
+
+    .about-desc{
+        font-size: 6vh;
+    }
+}

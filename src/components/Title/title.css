@@ -1,8 +1,13 @@
 .title-main{
-    background: var(--teal);
+    background: url('https://res.cloudinary.com/drapplestar/image/upload/v1532374220/AJK%20creative/36086522_267930567087971_1325724338325815296_n.jpg'), rgba(0, 0, 0, 0.4);
+    background-size: cover;
+    background-blend-mode: darken;
     width: 100vw;
     height: auto;
-    padding: 10px 0 20px 0;
+    padding: 45px 0 25px 0;
+    color: var(--grey)
+
+    
 }
 
 .title-photo{
@@ -14,19 +19,31 @@
 .title-container>h1{
     font-size: 8vh;
     font-weight: 600;
+    margin-bottom: 15px;
 
 }
 
 .title-container>h2{
-    font-size: 3.5vh;
+    font-size: 4.5vh;
     margin-bottom: 10px
 }
 
 .title-container>h3{
-    column-count: 2;
-    margin: 20px 20px 10px 20px;
-    font-size: 3.5vh;
+   width: 250px;
+   height: auto;
+   background-color: rgba(0, 0, 0, 0.2);
+   border: solid 2px var(--green);
+   color: #fff;
+   margin: 40px auto;
+   font-size: 3vh;
+   padding: 5px;
     
+}
+
+.title-latin{
+    border-bottom: solid 2px var(--green);
+    line-height: 25px;
+    margin-bottom: 5px;
 }
 
 .title-container>h1, .title-container>h2, .title-container>h3{
@@ -34,11 +51,39 @@
     color: var(--black);
 }
 
+@media(min-width: 350px){
+    .title-container>h3{
+        width: 275px;
+    }
+
+    .title-latin{
+        line-height: normal;
+    }
+}
+
+@media(min-width:370px){
+    .title-container>h3{
+        width: 300px;
+        font-size: 2.5vh;
+    }
+}
+
+@media(min-width:400px){
+    .title-container>h3{
+        width: 325px;
+    }
+}
+
 
 @media(min-width:550px){
+
+    .title-main{
+        padding: 50px 0;
+    }
     
     .title-container>h1{
         font-size: 15vh;
+
     }
 
     .title-container>h2{
@@ -47,12 +92,27 @@
 
     .title-container>h3{
         font-size: 8vh;
+        width: 350px;
+    }
+}
+
+@media(min-width:650px){
+    .title-container>h3{
+        width: 420px;
+        font-size: 8vh;
+    }
+}
+
+@media(min-width:700px){
+    .title-container>h3{
+        width: 450px;
     }
 }
 
 @media(min-width: 750px){
     .title-container>h1{
         font-size: 10vh;
+        margin-top: 30px;
     }
 
     .title-container>h2{
@@ -61,6 +121,21 @@
 
     .title-container>h3{
         font-size: 4vh;
+        width: 550px;
+    }
+}
+@media(min-width:800px){
+
+    .title-container>h1{
+        font-size: 13vh;
+    }
+
+    .title-container>h2{
+        font-size: 9vh;
+    }
+    .title-container>h3{
+        font-size: 6vh;
+        width: 400px;
     }
 }
 
@@ -75,6 +150,7 @@
 
     .title-container>h3{
         font-size: 6vh;
+        width: 800px;
     }
 }
 
@@ -82,6 +158,7 @@
     .title-container{
         display: flex;
         flex-direction: column;
+        padding: 0;
     }
 
     .title-container>div{
@@ -93,8 +170,17 @@
         height: auto;
     }
 
+    .title-container>h1{
+        font-size: 13vh;
+    }
+
+    .title-container>h2{
+        font-size: 9vh;
+    }
+
     .title-container>h3{
-        margin: 30px 140px;
+        width: 850px;
+
     }
 
 }

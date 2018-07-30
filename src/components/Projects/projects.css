@@ -1,35 +1,47 @@
 .projects-main{
     height: auto;
     width: 100vw;
-    background: var(--grey);
-    text-align: center;
-    padding: 10px 0 20px 0;
-    color: var(--blue);
+    background: var(--lightgrey);
+    padding: 0;
 }
 
-.projects-main>h1{
+.projects-container{
+    padding: 25px 0px 35px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.projects-container>h1{
     font-size: 10vh;
     font-weight: 600;
+    color: white;
+    margin-left: 10px;
 }
 
-.projects-main>h2{
-    font-size: 5vh;
-    margin: 10px 0 20px 0;
+.projects-container>h2{
+    font-size: 7vh;
+    margin: 20px 0 ;
+    text-align: center;
+    color: white;
+    border-bottom: solid 4px var(--green);
 }
 
-.projects-main>h3{
+.projects-container>h3{
     font-size: 4vh;
     font-weight: 600;
+    color: white;
+    margin-left: 15px;
 }
 
 ul{
     margin: 0 5px 10px 5px;
+    color: white;
+    margin-left: 15px;
 }
-.projects-main>ul>li{
+.projects-container>ul>li{
     text-align: left;
-    font-size: 3.5vh;
+    font-size: 4vh;
     margin-top: 10px;
-    margin-left: 30px;
 
 }
 
@@ -40,9 +52,11 @@ ul{
 
 .project-repo{
     width: 100vw;
-    background: var(--blue);
+    background: white;
     color: var(--grey);
     padding: 5px 0;
+    text-align: center;
+    font-size: 4vh;
 }
 
 .project-repo>div{
@@ -55,44 +69,48 @@ ul{
 }
 
 @media(min-width:550px){
-    .projects-main>h1{
-        font-size: 20vh;
+    .projects-container>h1{
+        font-size: 21vh;
         
     }
     
-    .projects-main>h2{
-        font-size: 10vh;
+    .projects-container>h2{
+        font-size: 13vh;
     }
     
-    .projects-main>h3{
-        font-size: 7vh;
+    .projects-container>h3{
+        font-size: 9vh;
     }
     
     
-    .projects-main>ul>li{
-        font-size: 7vh;
+    .projects-container>ul>li{
+        font-size: 9vh;
     
+    }
+
+    .project-repo{
+        font-size:9vh;
     }
 }
 
 @media(min-width:750px){
  
-    .projects-main>h1{
-        font-size: 15vh;
+    .projects-container>h1{
+        font-size: 13vh;
         
     }
     
-    .projects-main>h2{
-        font-size: 9vh;
+    .projects-container>h2{
+        font-size: 8vh;
     }
     
-    .projects-main>h3{
+    .projects-container>h3{
         font-size: 5vh;
         margin: 45px 0;
     }
     
     
-    .projects-main>ul>li{
+    .projects-container>ul>li{
         font-size: 5vh;
         margin-top: 25px;
     
@@ -103,6 +121,32 @@ ul{
     }
 }
 
+@media(min-width:800px){
+
+    .projects-container>h1{
+        font-size: 16vh;
+    }
+    .projects-container>h2{
+        font-size: 13vh;
+    }
+    
+    .projects-container>h3{
+        margin-left: 10px;
+        font-size: 8vh;
+    }
+    
+    
+    .projects-container>ul>li{
+        font-size: 8vh;
+    
+    }
+
+    .project-repo>div{
+        font-size: 8vh;
+    }
+    
+}
+
 @media(min-width:1000px){
 
     .twitter-photo{
@@ -110,8 +154,12 @@ ul{
         width: 40vw;
     }
 
-    .projects-main>div{
+    .projects-container>div{
         display: flex;
         justify-content: space-around;
+
     }
+
+
+
 }

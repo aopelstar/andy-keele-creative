@@ -1,30 +1,140 @@
 :root{
-    --teal: #245a5a;
-    --black: #0b100c;
-    --grey: #BEC0BF;
-    --blue: #07273E;
+    --lightgrey: #E5E5E3;
+    --green: #C3EDED;
+    --grey: #D0D1CC;
 }
 
 .head-main{
     width: 100vw;
     height: auto;
-    background: var(--teal);
-    padding: 10px 0;
+    background: var(--grey);
+    color: white;
+    position: fixed;
+    box-shadow: 2px 2px  6px var(--green);
+    z-index: 2;
 }
 
-.head-main>h1{
-   font-weight: 700;
-    font-size: 3.2vh;
+.head-container{
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hamburger{
+    width: auto;
+    height: 15px;
+}
+
+.head-menu{
+    height: 100vh;
+    width: 50vw;
+    background: var(--grey);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: fixed;
+    right: 0;
+    transition: .5s;
+    box-shadow: -2px 6px  6px var(--green);
+}
+
+.head-menu-hidden{
+    right: -56vw;
+    transition: .5s;
+}
+
+.head-menu-item{
+    margin: 0 auto;
+    font-size: 5vh;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: var(--green);
+}
+
+@media(min-width:370px){
+    .head-menu-item{
+        font-size: 3.7vh;
+    }
+}
+
+
+@media(min-width: 550px){
+    .head-left{
+        font-size: 5.5vh;
+    }
+
+    .head-menu-item{
+        font-size: 9vh;
+    }
+
+    .hamburger{
+        height: 20px;
+    }
+
+    .head-menu{
+        height: 92vh;
+    }
+}
+
+@media(min-width:750px){
+    .hamburger{
+        height: 40px;
+    }
+
+    .head-menu{
+        height: 96vh;
+    }
+
+    .head-left{
+        font-size: 3.5vh;
+    }
+    .head-menu-item{
+        font-size: 5vh;
+    }
+}
+
+@media(min-width:800px){
+    .hamburger{
+        height: 15px;
+    }
+
+    .head-menu-item{
+        font-size: 8vh;
+    }
+
+    .head-left{
+        font-size: 4.5vh;
+    }
+}
+
+@media(min-width:1000px){
+    .head-left{
+        font-size: 4.5vh;
+    }
+
+    .head-container{
+        padding: 5px 20px;
+    }
+
+    .hamburger{
+        height: 35px;
+    }
+}
+
+@media(min-width:1200px){
+    .head-left{
+        font-size: 3vh;
+    }
+
+    .hamburger{
+        height:20px;
+    }
+
     
-}
-
-.head-main>h2{
-    font-size: 4vh;
-    margin: 10px 0 10px 0;
-}
-
-.head-main>h1, .head-main>h2{
-    font-family: 'Lato', sans-serif;
-    color: var(--black);
-    text-align: center;
 }

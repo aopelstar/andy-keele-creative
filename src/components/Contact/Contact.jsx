@@ -85,11 +85,11 @@ export default class Contact extends Component {
                 <div className="contact-container">
                     <div className="contact-row">
                         <div className={this.state.nameTrue ? "contact-row-indent" : "contact-row-normal"}>Name:</div>
-                        <div><input type="text" onFocus={() => this.handleFocus("nameTrue")} onBlur={(e) => this.handleBlur("nameTrue", e.target.value)} onChange={(e) => this.handleChange("name", e.target.value)} /></div>
+                        <div><input className="contact-input" type="text" onFocus={() => this.handleFocus("nameTrue")} onBlur={(e) => this.handleBlur("nameTrue", e.target.value)} onChange={(e) => this.handleChange("name", e.target.value)} /></div>
                     </div>
                     <div className="contact-row">
                         <div className={this.state.phoneTrue ? "contact-row-indent" : "contact-row-normal"}>Telephone:</div>
-                        <div><input type="text" onFocus={() => this.handleFocus("phoneTrue")} onBlur={(e) => this.handleBlur("phoneTrue", e.target.value)} onChange={(e) => this.handleChange("phone", e.target.value)} /></div>
+                        <div><input className="contact-input" type="text" onFocus={() => this.handleFocus("phoneTrue")} onBlur={(e) => this.handleBlur("phoneTrue", e.target.value)} onChange={(e) => this.handleChange("phone", e.target.value)} /></div>
                     </div>
                     <div className="contact-row">
                         <div className={this.state.emailTrue ? "contact-row-indent" : "contact-row-normal"}>Email:</div>
@@ -98,12 +98,12 @@ export default class Contact extends Component {
                                 "contact-row-invalid" :
                                 "contact-row-valid"}>X
                                 </div>
-                            <input type="text" onFocus={() => this.handleFocus("emailTrue")} onBlur={(e) => this.handleBlur("emailTrue", e.target.value)} onChange={(e) => this.handleChange("email", e.target.value)} />
+                            <input className="contact-input" type="text" onFocus={() => this.handleFocus("emailTrue")} onBlur={(e) => this.handleBlur("emailTrue", e.target.value)} onChange={(e) => this.handleChange("email", e.target.value)} />
                         </div>
                     </div>
                     <div className="contact-row">
                         <div className={this.state.messageTrue ? "contact-row-indent" : "contact-row-normal"}>Message:</div>
-                        <div><input type="text" onFocus={() => this.handleFocus("messageTrue")} onBlur={(e) => this.handleBlur("messageTrue", e.target.value)} onChange={(e) => this.handleChange("message", e.target.value)} /></div>
+                        <div><input className="contact-input" type="text" onFocus={() => this.handleFocus("messageTrue")} onBlur={(e) => this.handleBlur("messageTrue", e.target.value)} onChange={(e) => this.handleChange("message", e.target.value)} /></div>
                     </div>
                     <div className="button-container">
                         <button className="contact-button" onClick={() => this.submit()}>
